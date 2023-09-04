@@ -7,8 +7,207 @@
     {
         "tag": "nombre",
         "patterns": ["cómo es tu nombre", "cómo te llamas"],
-        "responses": ["Me llamo Juan Pablo", "Mi nombre es Juan Pablo"]
-    }
+        "responses": ["Me llamo vellaco", "Mi nombre es vellaquito"]
+    },
+    {
+        "tag": "saludo",
+        "patterns": ["¡Hola!", "Buenos días", "Hola, ¿cómo puedo ayudarte?", "Saludos"],
+        "responses": ["¡Hola! Bienvenido a la tienda de mascotas.", "¡Buenos días! ¿En qué puedo ayudarte hoy?"]
+     },
+     {
+        "tag": "consulta_mascota",
+        "patterns": ["Estoy buscando una mascota", "¿Qué tipos de mascotas tienen?", "Deseo adoptar una mascota"],
+        "responses": ["Tenemos una variedad de mascotas disponibles, desde perros y gatos hasta pájaros y peces. ¿Tienes alguna preferencia?", "Estás en el lugar adecuado para adoptar una mascota. ¿Tienes algún tipo de mascota en mente?"]
+     },
+     {
+        "tag": "horarios",
+        "patterns": ["¿Cuál es su horario de atención?", "¿A qué hora abren y cierran?", "Horarios de la tienda"],
+        "responses": ["Nuestro horario de atención es de lunes a viernes de 9:00 a.m. a 6:00 p.m. y los sábados de 10:00 a.m. a 4:00 p.m.", "Estamos abiertos de lunes a sábado. ¿En qué momento te gustaría visitarnos?"]
+     },
+     {
+        "tag": "promociones",
+        "patterns": ["¿Tienen promociones?", "Ofertas en mascotas", "Descuentos"],
+        "responses": ["Sí, tenemos promociones en algunos productos para mascotas. ¿Hay algo en particular que te interese?", "¡Claro! Siempre tenemos ofertas especiales en accesorios y alimentos para mascotas. ¿En qué estás interesado?"]
+     },
+     {
+        "tag": "ubicacion",
+        "patterns": ["¿Dónde están ubicados?", "Dirección de la tienda", "Cómo llegar a la tienda"],
+        "responses": ["Estamos ubicados en 123 Calle de las Mascotas. ¿Necesitas direcciones?", "Nuestra dirección es 123 Calle de las Mascotas. ¡Esperamos verte pronto!"]
+     },
+     {
+        "tag": "citas_veterinario",
+        "patterns": ["Necesito una cita con el veterinario", "¿Tienen servicios veterinarios?", "Citas médicas para mascotas"],
+        "responses": ["Sí, ofrecemos servicios veterinarios. Por favor, llámanos al 555-123-4567 para programar una cita.", "Claro, puedes programar una cita con nuestro veterinario llamando al 555-123-4567. ¿En qué podemos ayudarte con tu mascota?"]
+     },
+     {
+        "tag": "alimentacion",
+        "patterns": ["¿Qué tipo de comida recomiendan para mi mascota?", "Consejos de alimentación", "Alimentación saludable"],
+        "responses": ["La alimentación adecuada depende del tipo de mascota que tengas. ¿Tienes un perro, gato u otra mascota?", "Cada mascota es diferente. Podemos recomendarte la mejor comida según el tipo y las necesidades de tu mascota. ¿Puedes decirme qué tipo de mascota tienes?"]
+     },
+     {
+        "tag": "juguete_mascota",
+        "patterns": ["¿Qué juguete es bueno para mi mascota?", "Juguetes recomendados", "Diversión para mascotas"],
+        "responses": ["Los juguetes adecuados varían según la mascota. ¿Tienes un perro, gato u otra mascota?", "Tenemos una variedad de juguetes para mascotas. ¿Puedes decirme qué tipo de mascota tienes y su tamaño?"]
+     },
+     {
+        "tag": "contacto",
+        "patterns": ["¿Cómo puedo contactarlos?", "Información de contacto", "Número de teléfono de la tienda"],
+        "responses": ["Puedes contactarnos llamando al 555-789-1234 o enviando un correo electrónico a info@tiendademascotas.com. Estamos aquí para ayudarte.", "Si tienes alguna pregunta, no dudes en llamarnos al 555-789-1234 o escribirnos a info@tiendademascotas.com. Estamos encantados de atenderte."]
+     },
+     {
+        "tag": "despedida",
+        "patterns": ["Gracias por la información", "Hasta luego", "Adiós"],
+        "responses": ["De nada, ¡esperamos verte pronto en nuestra tienda de mascotas!", "¡Hasta luego! Siempre estamos aquí para ayudarte con tus mascotas."]
+     },
+     {
+        "tag": "razas",
+        "patterns": ["¿Qué razas de perros tienen disponibles?", "Razas de perros para adopción", "Perros en adopción"],
+        "responses": ["Tenemos una variedad de razas de perros disponibles para adopción. ¿Tienes alguna preferencia específica en mente?", "Estamos encantados de mostrarte nuestras razas de perros en adopción. ¿Hay alguna que te interese en particular?"]
+     },
+     {
+        "tag": "cuidado_mascota",
+        "patterns": ["¿Cómo puedo cuidar adecuadamente a mi mascota?", "Consejos de cuidado", "Cuidado responsable"],
+        "responses": ["El cuidado de las mascotas es importante. ¿Tienes alguna pregunta específica sobre el cuidado de tu mascota?", "Cuidar de tu mascota es fundamental. ¿En qué aspecto necesitas orientación?"]
+     },
+     {
+        "tag": "accesorios",
+        "patterns": ["¿Qué accesorios recomiendan para mi mascota?", "Accesorios esenciales", "Complementos para mascotas"],
+        "responses": ["Los accesorios varían según el tipo de mascota. ¿Puedes decirme si tienes un perro, gato u otra mascota?", "Tenemos una amplia gama de accesorios para mascotas. ¿Puedes indicarme qué tipo de mascota tienes y cuáles son tus necesidades?"]
+     },
+     {
+        "tag": "adopcion_proceso",
+        "patterns": ["¿Cuál es el proceso de adopción?", "Requisitos para adoptar", "Pasos para adoptar una mascota"],
+        "responses": ["Nuestro proceso de adopción incluye una solicitud, una entrevista y una tarifa de adopción. ¿Te gustaría saber más detalles?", "El proceso de adopción es importante para asegurarnos de que las mascotas encuentren un hogar adecuado. ¿Tienes alguna pregunta específica sobre el proceso?"]
+     },
+     {
+        "tag": "peluqueria_mascotas",
+        "patterns": ["¿Ofrecen servicios de peluquería para mascotas?", "Corte de pelo para mascotas", "Estilismo para mascotas"],
+        "responses": ["Sí, ofrecemos servicios de peluquería para mascotas. ¿Te gustaría programar una cita para tu mascota?", "Contamos con servicios de peluquería para que tu mascota luzca siempre genial. ¿En qué podemos ayudarte con la peluquería de tu mascota?"]
+     },
+     {
+        "tag": "comportamiento_mascotas",
+        "patterns": ["Mi mascota tiene problemas de comportamiento", "Entrenamiento de mascotas", "¿Pueden ayudarme con el comportamiento de mi mascota?"],
+        "responses": ["Entendemos que cada mascota es única. Podemos ofrecerte consejos para el entrenamiento y, si es necesario, recomendarte a un especialista en comportamiento.", "El comportamiento de las mascotas puede ser un desafío. ¿Puedes decirnos más sobre el comportamiento de tu mascota para que podamos ofrecerte la mejor ayuda posible?"]
+     },
+     {
+        "tag": "eventos",
+        "patterns": ["¿Organizan eventos para mascotas?", "Eventos de adopción", "Actividades para mascotas"],
+        "responses": ["Sí, organizamos eventos para mascotas y sus dueños. Mantente atento a nuestras redes sociales para conocer los próximos eventos.", "Nos encanta organizar eventos para mascotas y sus familias. ¿Te gustaría saber cuándo será nuestro próximo evento?"]
+     },
+     {
+        "tag": "retorno_producto",
+        "patterns": ["¿Cuál es su política de devolución de productos?", "Devolución de productos para mascotas", "Política de reembolso"],
+        "responses": ["Nuestra política de devolución permite devolver productos no utilizados dentro de los 30 días posteriores a la compra. ¿Necesitas más detalles?", "Queremos asegurarnos de que estés satisfecho con tus compras. ¿Hay algún producto específico que desees devolver?"]
+     },
+     {
+        "tag": "alojamiento_mascotas",
+        "patterns": ["¿Ofrecen servicios de alojamiento para mascotas?", "Cuidado de mascotas en ausencia", "Pensión para mascotas"],
+        "responses": ["Sí, ofrecemos servicios de alojamiento para mascotas cuando necesitas viajar. ¿Tienes planes de viaje próximamente?", "El cuidado de mascotas en tu ausencia es importante. ¿Cuándo necesitas nuestros servicios de alojamiento?"]
+     },
+     {
+        "tag": "informacion_empresa",
+        "patterns": ["Háblame más sobre su tienda de mascotas", "Historia de la tienda", "Misión de la empresa"],
+        "responses": ["Nuestra tienda de mascotas se enorgullece de ofrecer un ambiente amoroso para todas las mascotas. ¿Te gustaría saber más sobre nuestra historia o misión?", "Estamos comprometidos con el bienestar de las mascotas y sus familias. ¿En qué aspecto específico estás interesado?"]
+     }
+     ,{
+        "tag": "razas",
+        "patterns": ["¿Qué razas de perros tienen disponibles?", "Razas de perros para adopción", "Perros en adopción"],
+        "responses": ["Tenemos una variedad de razas de perros disponibles para adopción. ¿Tienes alguna preferencia específica en mente?", "Estamos encantados de mostrarte nuestras razas de perros en adopción. ¿Hay alguna que te interese en particular?"]
+     },
+     {
+        "tag": "cuidado_mascota",
+        "patterns": ["¿Cómo puedo cuidar adecuadamente a mi mascota?", "Consejos de cuidado", "Cuidado responsable"],
+        "responses": ["El cuidado de las mascotas es importante. ¿Tienes alguna pregunta específica sobre el cuidado de tu mascota?", "Cuidar de tu mascota es fundamental. ¿En qué aspecto necesitas orientación?"]
+     },
+     {
+        "tag": "accesorios",
+        "patterns": ["¿Qué accesorios recomiendan para mi mascota?", "Accesorios esenciales", "Complementos para mascotas"],
+        "responses": ["Los accesorios varían según el tipo de mascota. ¿Puedes decirme si tienes un perro, gato u otra mascota?", "Tenemos una amplia gama de accesorios para mascotas. ¿Puedes indicarme qué tipo de mascota tienes y cuáles son tus necesidades?"]
+     },
+     {
+        "tag": "adopcion_proceso",
+        "patterns": ["¿Cuál es el proceso de adopción?", "Requisitos para adoptar", "Pasos para adoptar una mascota"],
+        "responses": ["Nuestro proceso de adopción incluye una solicitud, una entrevista y una tarifa de adopción. ¿Te gustaría saber más detalles?", "El proceso de adopción es importante para asegurarnos de que las mascotas encuentren un hogar adecuado. ¿Tienes alguna pregunta específica sobre el proceso?"]
+     },
+     {
+        "tag": "peluqueria_mascotas",
+        "patterns": ["¿Ofrecen servicios de peluquería para mascotas?", "Corte de pelo para mascotas", "Estilismo para mascotas"],
+        "responses": ["Sí, ofrecemos servicios de peluquería para mascotas. ¿Te gustaría programar una cita para tu mascota?", "Contamos con servicios de peluquería para que tu mascota luzca siempre genial. ¿En qué podemos ayudarte con la peluquería de tu mascota?"]
+     },
+     {
+        "tag": "comportamiento_mascotas",
+        "patterns": ["Mi mascota tiene problemas de comportamiento", "Entrenamiento de mascotas", "¿Pueden ayudarme con el comportamiento de mi mascota?"],
+        "responses": ["Entendemos que cada mascota es única. Podemos ofrecerte consejos para el entrenamiento y, si es necesario, recomendarte a un especialista en comportamiento.", "El comportamiento de las mascotas puede ser un desafío. ¿Puedes decirnos más sobre el comportamiento de tu mascota para que podamos ofrecerte la mejor ayuda posible?"]
+     },
+     {
+        "tag": "eventos",
+        "patterns": ["¿Organizan eventos para mascotas?", "Eventos de adopción", "Actividades para mascotas"],
+        "responses": ["Sí, organizamos eventos para mascotas y sus dueños. Mantente atento a nuestras redes sociales para conocer los próximos eventos.", "Nos encanta organizar eventos para mascotas y sus familias. ¿Te gustaría saber cuándo será nuestro próximo evento?"]
+     },
+     {
+        "tag": "retorno_producto",
+        "patterns": ["¿Cuál es su política de devolución de productos?", "Devolución de productos para mascotas", "Política de reembolso"],
+        "responses": ["Nuestra política de devolución permite devolver productos no utilizados dentro de los 30 días posteriores a la compra. ¿Necesitas más detalles?", "Queremos asegurarnos de que estés satisfecho con tus compras. ¿Hay algún producto específico que desees devolver?"]
+     },
+     {
+        "tag": "alojamiento_mascotas",
+        "patterns": ["¿Ofrecen servicios de alojamiento para mascotas?", "Cuidado de mascotas en ausencia", "Pensión para mascotas"],
+        "responses": ["Sí, ofrecemos servicios de alojamiento para mascotas cuando necesitas viajar. ¿Tienes planes de viaje próximamente?", "El cuidado de mascotas en tu ausencia es importante. ¿Cuándo necesitas nuestros servicios de alojamiento?"]
+     },
+     {
+        "tag": "informacion_empresa",
+        "patterns": ["Háblame más sobre su tienda de mascotas", "Historia de la tienda", "Misión de la empresa"],
+        "responses": ["Nuestra tienda de mascotas se enorgullece de ofrecer un ambiente amoroso para todas las mascotas. ¿Te gustaría saber más sobre nuestra historia o misión?", "Estamos comprometidos con el bienestar de las mascotas y sus familias. ¿En qué aspecto específico estás interesado?"]
+     },{
+        "tag": "recomendacion_alimentos",
+        "patterns": ["¿Qué alimentos recomiendan para cachorros?", "Alimentación de cachorros", "Comida para cachorros"],
+        "responses": ["Para cachorros, recomendamos alimentos especialmente formulados para su crecimiento y desarrollo. ¿Necesitas alguna marca específica?", "Los cachorros tienen necesidades dietéticas especiales. ¿Tienes un cachorro en casa al que necesitas alimentar?"]
+     },
+     {
+        "tag": "juguetes_interactivos",
+        "patterns": ["¿Qué juguetes interactivos tienen disponibles?", "Juguetes para estimulación mental", "Diversion para mascotas"],
+        "responses": ["Ofrecemos una variedad de juguetes interactivos que mantendrán a tus mascotas entretenidas y mentalmente estimuladas. ¿Tienes alguna preferencia?", "Los juguetes interactivos son excelentes para mantener a las mascotas comprometidas. ¿Para qué tipo de mascota estás buscando juguetes?"]
+     },
+     {
+        "tag": "seguro_mascotas",
+        "patterns": ["¿Ofrecen seguros para mascotas?", "Cobertura médica para mascotas", "Seguro de salud para animales"],
+        "responses": ["Sí, ofrecemos seguros de salud para mascotas que pueden ayudarte a cubrir los gastos veterinarios. ¿Quieres más información al respecto?", "La salud de tu mascota es importante. Podemos brindarte detalles sobre nuestros seguros para mascotas si lo deseas."]
+     },
+     {
+        "tag": "productos_ecologicos",
+        "patterns": ["¿Tienen productos ecológicos para mascotas?", "Productos amigables con el medio ambiente", "Eco-friendly para mascotas"],
+        "responses": ["Sí, tenemos una selección de productos ecológicos para mascotas, como juguetes y alimentos. ¿Te interesa cuidar del medio ambiente y tu mascota al mismo tiempo?", "Si te preocupa el medio ambiente, tenemos productos eco-friendly para tus mascotas. ¿En qué estás interesado?"]
+     },
+     {
+        "tag": "entrenamiento_mascotas",
+        "patterns": ["¿Ofrecen servicios de entrenamiento para mascotas?", "Entrenador de perros", "Adiestramiento de mascotas"],
+        "responses": ["Sí, ofrecemos servicios de entrenamiento para mascotas. ¿Tienes un perro que necesite entrenamiento?", "El entrenamiento adecuado puede mejorar la relación con tu mascota. ¿En qué aspecto específico necesitas ayuda con el entrenamiento?"]
+     },
+     {
+        "tag": "salud_gatos",
+        "patterns": ["¿Cuáles son los cuidados de salud esenciales para los gatos?", "Salud felina", "Cuidado de gatos"],
+        "responses": ["El cuidado de salud para gatos incluye vacunas, desparasitación y visitas regulares al veterinario. ¿Necesitas más información sobre cuidados específicos?", "Los gatos necesitan atención médica regular para mantenerse saludables. ¿Tienes alguna pregunta específica sobre la salud de tu gato?"]
+     },
+     {
+        "tag": "comportamiento_gatos",
+        "patterns": ["Mi gato tiene problemas de comportamiento", "Entrenamiento de gatos", "¿Pueden ayudarme con el comportamiento de mi gato?"],
+        "responses": ["Entendemos que cada gato es único. Podemos ofrecerte consejos para el entrenamiento y, si es necesario, recomendarte a un especialista en comportamiento felino.", "El comportamiento de los gatos puede ser un desafío. ¿Puedes decirnos más sobre el comportamiento de tu gato para que podamos ofrecerte la mejor ayuda posible?"]
+     },
+     {
+        "tag": "mascotas_exoticas",
+        "patterns": ["¿Ofrecen productos y servicios para mascotas exóticas?", "Mascotas no convencionales", "Cuidado de animales exóticos"],
+        "responses": ["Sí, también atendemos a mascotas exóticas. ¿Tienes alguna mascota no convencional que requiera productos o servicios específicos?", "Las mascotas exóticas también merecen cuidados especiales. ¿En qué podemos ayudarte con tu mascota exótica?"]
+     },
+     {
+        "tag": "familias_mascotas",
+        "patterns": ["¿Cómo puedo ayudar a mis hijos a cuidar de la mascota?", "Mascotas y niños", "Educación de responsabilidad con mascotas"],
+        "responses": ["Involucrar a los niños en el cuidado de las mascotas es una excelente forma de enseñar responsabilidad. ¿Necesitas consejos para incluir a tus hijos en el cuidado de la mascota?", "Es importante enseñar a los niños sobre el cuidado de las mascotas. ¿Cómo podemos ayudarte a educar a tus hijos en este aspecto?"]
+     },
+     {
+        "tag": "patas_seguras",
+        "patterns": ["¿Cómo mantener seguras a mis mascotas en casa?", "Seguridad en el hogar para mascotas", "Consejos de seguridad"],
+        "responses": ["La seguridad en el hogar es esencial para tus mascotas. ¿Necesitas consejos sobre cómo mantener un entorno seguro para ellas?", "Mantener a tus mascotas seguras en casa es una prioridad. ¿En qué aspecto específico necesitas orientación?"]
+     }
 ]
 
 }
